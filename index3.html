@@ -16,6 +16,23 @@ body {
   margin: 0;
 }
 
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}	
+	
 /* Header/logo Title */
 .header {
   padding: 20px;
@@ -131,12 +148,15 @@ body {
 </head>
 <body>
 
+<a href="#" class="float">
+<i class="fa fa-plus my-float"></i>
+</a>	
+	
 <div class="header">
   <h1>Shurtliff Dashboard</h1>
 </div>
 
-<div class="navbar">
-<input type="button" value="Go Back From Whence You Came!" onclick="history.back(-1)" />  
+<div class="navbar"> 
 <a href="#" class="active">Home</a>
   <a href="#">Link</a>
   <a href="#">Link</a>
@@ -174,6 +194,8 @@ body {
     <div class="fakeimg" style="height:60px;">Image</div><br>
     <div class="fakeimg" style="height:60px;">Image</div>  -->
   </div>
+	
+	
   <div class="main">
     <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FBoise&amp;src=c2h1cnRsaWZmaG9tZUBnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZXdzaHVydGxpZmZAZ21haWwuY29t&amp;src=bXNodXJ0bGlmZkBnbWFpbC5jb20&amp;src=ZmFtaWx5MDIzODg2NTc5NzM3MjcwNDE1MDJAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=dXNhX19lbkBob2xpZGF5LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%237986CB&amp;color=%237986CB&amp;color=%23E67C73&amp;color=%237986CB&amp;color=%237986CB&amp;color=%2333B679&amp;mode=MONTH&amp;showPrint=0&amp;showCalendars=1&amp;showTitle=1&amp;title=Shurtliff%20Family%20Calendar&amp;showDate=1" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no">
 	  </iframe>
