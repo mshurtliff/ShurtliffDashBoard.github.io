@@ -129,7 +129,7 @@ body {
   }
 }
 </style>
-
+<script>
 $(function() {
   var quote = $('#quote-text');
   getQuote(quote);
@@ -147,6 +147,7 @@ function getQuote(quote) {
       quote.html(data.quoteText);
   });
 }
+</script>	
 	
 </head>
 <body>
